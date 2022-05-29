@@ -55,7 +55,6 @@ img{vertical-align: top;}
     min-height: 104px;
     display: flex;
     align-items: center;
-    border: solid 1px red;
     position: absolute;
     top: 0;
     left: 50%;
@@ -82,6 +81,10 @@ img{vertical-align: top;}
     color: black;
     font-size: 24px;
     font-weight: bold;
+}
+
+.logo_link :hover {
+    color: red;
 }
 
 .navigation nav ul {
@@ -112,13 +115,15 @@ img{vertical-align: top;}
 .navigation nav ul li a {
     color: gray;
 }
+
+.navigation nav ul li a:hover {
+    color: red;
+}
 /* ----------end navigation--------*/
 
 .services {
     width: 1046px;
-    margin-top: 80px;
-    border: solid 1px black;
-    margin: 104px 0 0 188px;
+    margin: 190px 0 0 188px;
     position: relative;
     top: 0;
     left: 0;
@@ -221,16 +226,37 @@ img{vertical-align: top;}
     max-width: 1046px;
     height: 242px;
     margin: 0 auto;
-    margin-top: 190px;
+    margin-top: 105px;
 }
 
 .consultings div {
     width: 328px;
-    height: 100%;
+    height: 242px;
 }
 
 .environmental_consulting {
     background-color: white;
+}
+
+.consultings_title {
+    margin:25px 0 0 40px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.consultings_text {
+    margin:10px 0 0 40px;
+    line-height: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: gray;
+}
+
+.img_log {
+    width: 48px;
+    height: 41px;
+    margin: 40px 0 0 40px;
+    color: rgb(3, 90, 112);
 }
 
 .finance_and_consultancy {
@@ -241,17 +267,81 @@ img{vertical-align: top;}
     background-color: rgb(3, 90, 112);
 }
 
+.financial_services_consulting img {
+    width: 48px;
+    height: 41px;
+    margin: 40px 0 0 40px;
+}
+
+.financial_services_consulting h3 {
+    color: white;
+}
+
+.financial_services_consulting p {
+    margin:10px 0 0 40px;
+    line-height: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+
 /************* -----------*******/
 
-.test {
+.body {
+}
+
+
+.designing_conteiner {
     border: solid 1px red;
     margin: 0 auto;
-    margin-top: 50px;
     width: 1440px;
     height: 526px;
 }
 
-.body {
+.text_designing h2 {
+    margin-top: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.text_designing p {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    line-height: 20px;
+}
+
+.resultat_designing {
+    width: 1049px;
+    height: 209px;
+    border: solid 1px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll_designing {
+    width: 230px;
+    height: 209px;
+    border: solid 1px;
+}
+
+.scroll_designing img {
+    margin: 0 auto;
+    margin: 30px 91px;
+    width: 48px;
+}
+
+.scroll_designing h2, h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.scroll_designing h2 {
+    font-size: 40px;
 }
 
 
