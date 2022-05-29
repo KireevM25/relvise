@@ -1,0 +1,221 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+/*--------------------*/
+.main {
+    box-sizing: content-box;
+    padding: 0 15px;
+    border: solid 1px blue;
+    width: 1440px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+
+.header {
+    max-width: 1322px;
+    margin: 0 auto;
+    min-height: 104px;
+    display: flex;
+    align-items: center;
+    border: solid 1px red;
+}
+
+.logo {
+    margin: 0 0 0 132px;
+}
+@media screen and (max-width: 992px) {
+    .logo {
+        margin: 0 0 0 55px;
+    }
+}
+
+@media screen and (max-width: 721px) {
+    .logo {
+        margin: 0 0 0 5px;
+    }
+}
+
+.logo_link {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navigation nav ul {
+    display: flex;
+    width: 280px;
+    flex-wrap: wrap;
+}
+
+.header_menu {
+    margin: 0 0 0 145px;
+    padding: 5px 0px; 
+}
+
+@media screen and (max-width: 992px) {
+    .header_menu {
+    margin: 0 0 0 75px;
+    }
+}
+
+@media screen and (max-width: 721px) {
+    .header_menu {
+    margin: 0 0 0 40px;
+    }
+}
+
+.navigation nav ul li {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 21px 0 0;
+    line-height: 25px;
+}
+
+.navigation nav ul li a {
+    color: gray;
+}
+/* ----------end navigation--------*/
+
+.services {
+    width: 1046px;
+    margin-top: 80px;
+    border: solid 1px black;
+    margin: 0 0 0 188px;
+}
+
+@media screen and (max-width: 992px) {
+    .services {
+        margin: 0 0 0 113px;
+    }
+}
+
+.services_title {
+    font-size: 40px;
+    height: 240px;
+    width: 509px;
+}
+
+@media screen and (max-width: 992px) {
+    .services_title {
+    font-size: 25px;
+    width: 350px;
+    }
+}
+
+.services_quot {
+    font-size: 20px;
+    margin-top: 35px;
+    width: 509px;
+    color: gray;
+}
+
+.button_quote {
+    margin-top: 45px;
+    width: 509px;
+}
+
+.button_quote a {
+    padding: 10px 36px;
+
+}
+
+.left_button {
+    border: solid 1px #a86b1b;
+    border-radius: 15px;
+    color: white;
+    background-color: #a86b1b;
+    transition: 0.8s;
+}
+
+.left_button:hover {
+    background-color: rgb(30, 231, 4);
+    color: black;
+    border: solid 1px rgb(30, 231, 4);
+}
+
+.right_button {
+    margin-left: 15px;
+    border: solid 1px rgb(95, 95, 95);
+    border-radius: 15px;
+    color: gray;
+    transition: 1s;
+}
+
+.right_button:hover {
+    background-color: rgb(208, 231, 4);
+    color: black;
+    border: solid 1px rgb(208, 231, 4);
+}
+
+
+/********            **************/
+
+
+.consultings {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: solid 1px black;
+    max-width: 1046px;
+    height: 242px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.environmental_consulting {
+    border: solid 1px yellow;
+    width: 328px;
+    height: 100%;
+}
+
+.finance_and_consultancy {
+    border: solid 1px yellow;
+    width: 328px;
+    height: 100%;
+}
+
+.financial_services_consulting {
+    border: solid 1px yellow;
+    width: 328px;;
+    height: 100%;
+}
+
+
+.body {
+}
+
+
