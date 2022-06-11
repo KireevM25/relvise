@@ -39,7 +39,7 @@ img{vertical-align: top;}
     box-sizing: content-box;
     padding: 0 15px;
     border: solid 1px blue;
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
     min-height: 100%;
     position: relative;
@@ -55,7 +55,6 @@ img{vertical-align: top;}
     min-height: 104px;
     display: flex;
     align-items: center;
-    border: solid 1px red;
     position: absolute;
     top: 0;
     left: 50%;
@@ -82,6 +81,10 @@ img{vertical-align: top;}
     color: black;
     font-size: 24px;
     font-weight: bold;
+}
+
+.logo_link :hover {
+    color: red;
 }
 
 .navigation nav ul {
@@ -112,13 +115,15 @@ img{vertical-align: top;}
 .navigation nav ul li a {
     color: gray;
 }
+
+.navigation nav ul li a:hover {
+    color: red;
+}
 /* ----------end navigation--------*/
 
 .services {
     width: 1046px;
-    margin-top: 80px;
-    border: solid 1px black;
-    margin: 104px 0 0 188px;
+    margin: 190px 0 0 188px;
     position: relative;
     top: 0;
     left: 0;
@@ -221,16 +226,37 @@ img{vertical-align: top;}
     max-width: 1046px;
     height: 242px;
     margin: 0 auto;
-    margin-top: 190px;
+    margin-top: 105px;
 }
 
 .consultings div {
     width: 328px;
-    height: 100%;
+    height: 242px;
 }
 
 .environmental_consulting {
     background-color: white;
+}
+
+.consultings_title {
+    margin:25px 0 0 40px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.consultings_text {
+    margin:10px 0 0 40px;
+    line-height: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: gray;
+}
+
+.img_log {
+    width: 48px;
+    height: 41px;
+    margin: 40px 0 0 40px;
+    color: rgb(3, 90, 112);
 }
 
 .finance_and_consultancy {
@@ -241,17 +267,630 @@ img{vertical-align: top;}
     background-color: rgb(3, 90, 112);
 }
 
-/************* -----------*******/
-
-.test {
-    border: solid 1px red;
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 1440px;
-    height: 526px;
+.financial_services_consulting img {
+    width: 48px;
+    height: 41px;
+    margin: 40px 0 0 40px;
 }
+
+.financial_services_consulting h3 {
+    color: white;
+}
+
+.financial_services_consulting p {
+    margin:10px 0 0 40px;
+    line-height: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+
+
+/************* -----------*******/
 
 .body {
 }
 
 
+.designing_conteiner {
+    margin: 0 auto;
+    width: 1440px;
+    height: 526px;
+}
+
+.text_designing h2 {
+    margin-top: 80px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.text_designing p {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+    line-height: 20px;
+}
+
+/****--------*****/
+
+.resultat_designing {
+    width: 1049px;
+    height: 209px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll_designing {
+    width: 230px;
+    height: 209px;
+}
+
+.scroll_designing h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.scroll_designing h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.scroll_designing h2 {
+    font-size: 40px;
+}
+
+.scroll_designing h5 {
+    color: grey;
+    font-size: 16px;
+}
+
+.scroll_designing_img_consumer_products {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    margin: 30px 91px 0px 91px;
+}
+
+.scroll_designing_img_financial_services {
+    margin-top: 45px;
+    width: 47.88px;
+    height: 26.81px;
+    margin: 0 auto;
+    margin: 45px 91px 0px 91px;
+}
+
+.scroll_designing_img_environmental {
+    width: 35.84px;
+    height: 48px;
+    margin: 0 auto;
+    margin: 30px 91px 0px 91px;
+}
+
+.scroll_designing_img_business_finance {
+    width: 47.32px;
+    height: 40.56px;
+    margin: 0 auto;
+    margin: 30px 91px 0px 91px;
+}
+
+
+.statistics_consumer_products {
+    margin-top: 15px;
+}
+
+
+.statistics_financial_services {
+    margin-top: 20px;
+}
+
+.statistics_environmental {
+    margin-top: 15px;
+}
+
+.statistics_business_finance {
+    margin-top: 15px;
+}
+/*------------------*/
+
+.practice_advice {
+    height: 699px;
+    max-width: 1440px;
+}
+
+.text_practice_advice {
+    height: 107px;
+    width: 864px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.text_practice_advice h1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 57px;
+}
+
+.text_practice_advice p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: gray;
+}
+
+
+.practice_advice_description {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1049px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.practice_advice_description div {
+    display: flex;
+    flex-direction: column;
+    height: 331px;
+    max-width: 232px;
+    background-color: white;
+}
+
+
+.qwerty {
+    justify-content: end;
+}
+
+
+.practice_advice_description h5 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 30px 0 30px;
+    text-align: left;
+}
+
+.practice_advice_description p {
+    align-items: baseline;
+    font-size: 14px;
+    font-weight: bold; 
+    color: gray;
+    margin: 15px 0 0 30px;
+    line-height: 20px;
+}
+
+/*--------------------------*/
+
+.about_us {
+    margin-top: -120px;
+    max-width: 1440px;
+    height: 840px;
+    background-color: white;
+}
+
+.about_us_title {
+    padding: 110px 0 0 0;
+}
+
+.about_us_title h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.about_us_title p {
+    font-size: 14px;
+    line-height: 20px;
+    color: gray;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.about_us_video_conteiner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1053px;
+    height: 442px;
+}
+
+.about_us_video_description {
+    width: 333px;
+    height: 438px;
+}
+
+.about_us_video_description h2 {
+    font-size: 40px;
+    line-height: 57px;
+    margin-top: 30px;
+}
+
+.about_us_video_description p {
+    font-size: 14px;
+    line-height: 20px;
+    color: gray;
+}
+
+.about_us_video_text {
+    display: flex;
+    margin-top: 25px;
+}
+
+.about_us_video_text h5 {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 10px 0px 0 15px;
+}
+
+.about_us_video_text img {
+    margin-top: 15px
+}
+
+.about_us_video_text p {
+    margin: 10px 0px 0 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: gray;
+}
+
+/*-----------------------*/
+
+.newsletter {
+    max-width: 1440px;
+    height: 339px;
+    position: relative;
+}
+
+.sponsors {
+    max-width: 1050px;
+    height: 175px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.newsletter_email {
+    display: flex;
+    justify-content: space-between;
+    width: 986px;
+    height: 124px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    z-index: 50;
+    background-color: rgba(23, 33, 60, 1);
+}
+
+.newsletter_email h3 {
+    color: white;
+    font-size: 24px;
+    margin: 30px 50px;
+    line-height: 32px;
+}
+
+.newsletter_email_form {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 30px;
+    border: none;
+}
+
+.email_newsletter_input {
+    height: 58px;
+    width: 300px;
+    padding: 0 20px;
+    margin-right: -5px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.subscribe_newsletter_input {
+    width: 117px;
+    height: 58px;
+    background-color: rgb(209, 94, 0);
+    font-size: 12px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.dark_border {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    height: 77px;
+    background-color: rgba(37, 43, 66, 1);
+}
+
+/*--------------------*/
+
+.get_in_touch {
+    max-width: 1440px;
+    height: 650px;
+}
+
+.get_in_touch_title {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.get_in_touch_title h2 {
+    font-size: 40px;
+    line-height: 57px;
+    margin-top: 30px;
+}
+
+.get_in_touch_title p {
+    font-size: 14px;
+    line-height: 20px;
+    color: gray;
+}
+
+.support_conteiner {
+    max-width: 985px;
+    height: 393px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.submit_request_phone {
+    width: 328px;
+    height: 333px;
+    background-color: white;
+}
+
+.submit_request_phone img {
+    margin: 50px 0 0 128px;
+}
+
+.submit_request_phone p {
+    margin-top: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.submit_request_phone h5 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.submit_request_phone h6 {
+    font-size: 14px;
+    margin: 0 auto;
+    width: 160px;
+    height: 44px;
+    border: solid 1px;
+    margin-top: 15px;
+    text-align: center;
+    border: 1px solid #FF7B47;
+    border-radius: 5px;
+    color: #FF7B47;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit_request_phone a {
+    margin-left: 84px;
+}
+
+.submit_request_nav {
+    width: 328px;
+    height: 393px;
+    background-color: rgba(37, 43, 66, 1);
+}
+
+.submit_request_nav img {
+    margin: 80px 0 0 137px;
+}
+
+.submit_request_nav p {
+    margin-top: 15px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+
+.submit_request_nav h5 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+
+.submit_request_nav h6 {
+    font-size: 14px;
+    margin: 0 auto;
+    width: 160px;
+    height: 44px;
+    border: solid 1px;
+    margin-top: 15px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit_request_nav a {
+    margin-left: 84px;
+}
+
+.submit_request_message {
+    width: 328px;
+    height: 333px;
+    background-color: white;
+}
+
+.submit_request_message img {
+    margin: 50px 0 0 128px;
+}
+
+.submit_request_message p {
+    margin-top: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.submit_request_message h5 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.submit_request_message h6 {
+    font-size: 14px;
+    width: 160px;
+    height: 44px;
+    border: solid 1px;
+    margin-top: 15px;
+    text-align: center;
+    border: 1px solid #FF7B47;
+    border-radius: 5px;
+    color: #FF7B47;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit_request_message a {
+    margin-left: 84px;
+}
+
+/*-----------------*/
+
+.consulting_agency_contact {
+    width: 1440px;
+    height: 120px;
+    background-color: white;
+    display: flex;
+}
+
+.consulting_agency_contact_text {
+    
+}
+
+.consulting_agency_contact h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 40px 0 0 195px;
+    color: rgba(37, 43, 66, 1);
+}
+
+.consulting_agency_contact p {
+    margin: 10px 0 0 195px;
+}
+
+.consulting_agency_contact_btn {
+    margin: 55px 0 0 360px;
+}
+
+.consulting_agency_contact_btn a {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    background-color: #FF7B47;
+    border-radius: 5px;
+}
+
+/*---------------------*/
+
+.footer_conteiner {
+    max-width: 1440px;
+    height: 346px; 
+}
+
+.all_company_information {
+    display: flex;
+    align-items: center;
+    height: 272px;
+    background-color: rgba(23, 33, 60, 1);
+}
+
+.all_company_information_conteiner {
+    width: 850px;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 195px;
+}
+
+.all_company_information h5 {
+    font-size: 16px;
+    color: white;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+.all_company_information a {
+    font-size: 14px;
+    color: white;
+    line-height: 24px;
+}
+
+
+.link_tel { 
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.link_tel p {
+    margin-left: 10px;
+}
+
+.link_nav { 
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.link_nav p {
+    margin-left: 10px;
+}
+
+.link_mess { 
+    display: flex;
+}
+
+.link_mess p {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+.our_social_networks {
+    background-color: white;
+    height: 74px;
+    display: flex;
+    align-items: center;
+}
+
+.our_social_networks p {
+    margin-left: 195px;
+    color: gray;
+    font-weight: bold;
+}
+
+.our_social_networks_logo {
+    margin-left: 370px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.our_social_networks_logo img {
+    margin-left: 10px;
+}
